@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600;800&display=swap" rel="stylesheet">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- aos library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- css nativo -->
+        <link rel="stylesheet" href="../styles/styles.css">
+        <title>Grupo Leviatán</title>
+    </head>
+<body>
+        <header class="navbar navbar-expand-lg border-bottom">
+            <div class="container">
+                <a class="navbar-brand texto-logo" href="../index.html">LEVIATÁN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./elecciones.html">Elecciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sistemaspoliticos.html">Sistemas Políticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sumate</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <main>
+        <!----------- Portada ----------->
+        <section class="container pt-3 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="../assets/trabajemos-juntos.svg" alt="politicos debatiendo" class="w-100">
+                </div>
+                <div class="col-12 col-lg-6 order-lg-first d-flex flex-column justify-content-center">
+                    <h1 class="text-center text-lg-start pt-3">QUEREMOS ESCUCHAR <span class="titulo-destacado-alt">TU OPINIÓN</span></h1>
+                    <h2 class="text-center text-lg-start">Escribinos!</h2>
+                    <p class="text-center text-lg-start">Cada voz tiene algo que contar, si sos estudiante de Ciencia Política o carreras a fines no te pierdas la oportunidad de visibilizar tu opinión.
+                    <br>
+                    Sigamos creciendo, se parte de la transformación!
+                    </p>                                      
+                </div>
+            </div>
+        </section>
+        <!----------- 1ra Sección ----------->
+        <h2 class="d-flex justify-content-center pt-5 pb-3">Ayudanos a Mejorar</h2>
+        <section class="container-fluid p-3 background">
+            <h3 class="d-flex justify-content-center p-3">Completá el Formulario</h3>
+        </section>
+        <!-------------- Formulario ---------------->
+        <section class="container p-3 mt-4 mb-4 background--dos card-form">
+            <div class="row">
+                <form>
+                    <div class="col-12 mb-3">
+                        <label for="sumate-mail" class="form-label text-white">Email</label>
+                        <input type="email" class="form-control" id="sumate-mail" placeholder="diegomilito22@gmail.com" aria-describedby="emailHelp">
+                    
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="sumate-nombre" class="form-label text-white">Apellido y Nombre(s)</label>
+                        <input type="text" class="form-control" id="sumate-mail" placeholder="Militio Diego">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="sumate-comentario" class="form-label text-white">Dejanos tu comentario!</label>
+                        <textarea class="form-control" id="sumate-comentario" rows="3" placeholder="Quiero ayudar a cubrir las próximas elecciones de Brasil..."></textarea>
+                    </div>
+                    <div class="col-12 mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="newsletter">
+                        <label class="form-check-label text-white" for="newsletter">Acepto suscribirme al NewsLetter "En la Mira del Leviatán"</label>
+                    </div>
+
+                    <button type="button" class="boton--dos" data-bs-toggle="modal" data-bs-target="sumate-enviar">Enviar
+                    </button>
+                </form>
+
+
+            </div>
+            
+
+
+        </section>
+
+        
+    
+    </main>
+        
+    <!------------- Footer ------------->
+    <footer class="container-fluid background--tres texto-footer p-4">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center col-lg-3 align-items-lg-start">
+                    <a href="../index.html" class="texto-logo a-footer">LEVIATÁN</a>
+                    <p class="texto-footer">Grupo Leviatán ⓒ 2022 Todos los derechos reservados</p>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="d-flex justify-content-center">Redes sociales</h4>
+                    <div class="d-flex justify-content-around fs-2">
+                        <a class="bi bi-instagram"></a>
+                        <a class="bi bi-twitter"></a>
+                        <a class="bi bi-youtube"></a>
+                    </div> 
+                </div>
+                <div class="col-lg-3">
+                    <h4>No te pierdas nada!</h4>
+                        <ul class="list-footer">
+                            <li>
+                                <a href="../index.html" class="a-footer">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="./elecciones.html" class="a-footer">Elecciones</a>
+                            </li>
+                            <li>
+                                <a href="#" class="a-footer">Sistemas Políticos</a>
+                            </li>
+                            <li>
+                                <a href="./sobrenosotros.html" class="a-footer">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="#" class="a-footer">Sumate</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+    </script>
+</body>
+</html>

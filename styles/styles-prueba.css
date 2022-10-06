@@ -1,0 +1,123 @@
+/* header */
+.texto-logo {
+    font-weight: 600;
+    font-family:'sarawi ghotic';
+    font-size: 1.5rem;
+}
+.font-alt {
+    font-weight: 700;
+    font-family: 'Playfair Display SC', serif;
+}
+/* .navbar {
+    padding: 5vh;
+}
+.nav-link {
+    color: #1c4c96;
+    font-weight:600;
+}
+.nav-link:hover {
+    color: #cb0ed3;
+} */
+/* portada */
+/* .titulo-destacado {
+    color: #cb0ed3;
+}
+.titulo-destacado-alt {
+    color: #00ffff;
+}
+a {
+    text-decoration: none;
+} */
+
+/* .boton {
+    background-color: #000035;
+    border-style: none;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: solid #1c4c96;
+}
+.boton:hover {
+    background-color: #cb0ed3;
+    color: white;
+    border-style: none;
+    border: solid #ea33f2;   
+} */
+/* novedades */
+/* .background {
+    background: linear-gradient( to left, #1c4c96, #607ec9, #00ffff);
+}
+.background--dos {
+    background: linear-gradient( to left, #1c4c96, #607ec9, #cb0ed3);
+}
+.background--tres {
+    background: linear-gradient( to left, #000035, #062863, #1c4c96);
+}
+.background--cuatro {
+    background: linear-gradient( to left, #00ffff7d, #607ec961, #cb0ed3 );
+}
+.background--cuatro--alt {
+    background: linear-gradient( to right, #00ffff7d, #607ec961, #cb0ed3 );
+} */
+/* .boton--dos {
+    background-color: #000035;
+    border-style: none;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: solid #1c4c96;
+}
+.boton--dos:hover {
+    background-color:#00ffff;
+    color: black;
+    border-style: none;
+    border: solid #607ec9;   
+} */
+/* Proximas elecciones */
+/* .carta-proximas-elecciones {
+    width: 250px;
+    height: 250px;
+    border: solid black;
+    border-radius: 1rem;
+} */
+/* .titulo {
+    color: white;
+}
+.titulo:hover {
+    color: #cb0ed3;
+}
+.titulo--alt:hover {
+    color: #00ffff;
+}
+/* footer */
+/* .texto-footer {
+    color: white;
+}
+.list-footer{
+    list-style: none;
+}
+.a-footer {
+    color: white;
+}
+.a-footer:hover {
+    color: #00ffff;
+}
+.texto-logo--footer:hover {
+    color: #00ffff;
+}
+.bi {
+    color: white;
+}
+.bi:hover {
+    color: #00ffff;
+} */
+
+/* Animación de zoom */
+/* .zoom {
+    padding: 1rem;
+    transition: transform .2s;
+    margin: 0 auto;
+}  
+.zoom:hover {
+    transform: scale(1.1);
+} */
