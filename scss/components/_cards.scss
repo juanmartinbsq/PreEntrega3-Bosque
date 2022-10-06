@@ -1,0 +1,31 @@
+.carta-proximas-elecciones {
+    width: 250px;
+    height: 250px;
+    box-shadow: 5rem;
+    @include border-card-estructura;
+    @include titulos;
+} 
+.carta-proximas-elecciones-alt {
+    width: 250px;
+    height: 250px;
+    @include border-card-estructura;
+    @include titulos-alt;
+} 
+
+.carta-elecciones {
+    @include mobile {
+        width: 98%;
+    }
+    @include pc {
+        width: 40%;
+        box-sizing: border-box;
+    }
+}
+.card-form {
+    @include mobile {
+        width: 90%;
+    }
+    @include tablet {
+        width: 75%;
+    }
+}

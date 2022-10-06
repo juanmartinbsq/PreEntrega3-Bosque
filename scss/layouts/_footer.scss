@@ -1,0 +1,56 @@
+///////// parrafos del footer ///////
+.texto-footer {
+    color: white;
+    font-family: $principal-font;
+    font-size: $base-fontsize;
+}
+//////// logo y derechos de autor /////
+.copyright {
+    @include mobile {
+        align-items: center;
+    }
+    @include tablet {
+        align-items: start;
+    }
+}
+////// titulo no te pierdas nada //////
+.titulo-footer {
+    @include mobile {
+        display: none;
+    }
+    @include pc {
+        display: flex;
+    }
+}
+.a-footer{
+    color: white;
+    &:hover {
+    color: $celeste;
+    }
+}
+////// lista de secciones en el footer /////
+ul {
+    @include mobile {
+        display: none;
+    }
+    @include pc {
+        display: list-item;
+    }
+    list-style: none;
+    li { display: flex;
+    }
+    a {
+        font-family: $principal-font;
+        font-size: $base-fontsize;
+        color: white;
+        &:hover {
+        color: $celeste;}
+    }
+}
+////// iconos bootstrap //////
+.bi {
+    color: white;
+    &:hover {
+        color: $celeste;
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "preentrega3-bosque",
+  "version": "1.0.0",
+  "description": "preentregatres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "r-sass": "sass --watch scss/main.scss styles/styles.css"
+  },
+  "author": "Juan Bosque",
+  "license": "ISC"
+}

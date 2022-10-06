@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: $violeta;
+    }
+}
+.titulo-destacado {
+    color: $violeta;
+}
+.titulo-destacado-alt {
+    color: $celeste;
+}
+.nota-elecciones {
+    font-size: $titulos-cartas-fontsize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color:black;
+}
+
+p {
+    font-size: $base-fontsize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+.p-card {
+    color:white;
+    font-size: $base-fontsize;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+
+    @include mobile {
+        font-size: $secciones-fontsize;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 800;
+    }
+    @include tablet {
+        font-size: $portada-fontsize;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+    }
+    @include pc {
+        font-size: $portada-fontsize;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+    }
+}
+
+h2 {
+    font-size: $secciones-fontsize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    @include mobile {
+        font-size: $secciones-mobile-fontsize;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+}
+h3 {
+    font-size: $secciones-fontsize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    @include mobile {
+        font-size: $secciones-mobile-fontsize;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color:white;
+    }
+}
+h4 {
+    font-size: $titulos-cartas-fontsize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}

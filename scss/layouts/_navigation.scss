@@ -1,0 +1,11 @@
+.navbar {
+    padding: 5vh;
+}
+.nav-link {
+    color: $azul-indigo;
+    font-weight:600;
+    &:hover{
+        color: $violeta;
+    }
+    
+}

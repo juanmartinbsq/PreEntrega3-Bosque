@@ -1,0 +1,7 @@
+
+.boton {
+    @include boton-celeste;
+}
+.boton--dos {
+    @include boton-violeta;
+}
