@@ -15,7 +15,7 @@ a {
     font-size: $titulos-cartas-fontsize;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    color:black;
+    color:white;
 }
 
 p {
@@ -24,10 +24,47 @@ p {
     font-weight: 300;
     color: black;
 }
+.p-secciones{
+    @include mobile {
+        color:white;
+        font-size: $secciones-mobile-fontsize;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @include tablet {
+        color:white;
+        font-size: $secciones-fontsize;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }    
+}
+.p-card-index {
+    @include mobile {
+        color:white;
+        font-size: $base-fontsize;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @include tablet {
+        color:white;
+        font-size: $base-fontsize;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }    
+}
 .p-card {
-    color:white;
-    font-size: $base-fontsize;
-    font-family: 'Montserrat', sans-serif;
+    @include mobile {
+        color:white;
+        font-size: $mobile-fontsize;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @include tablet {
+        color:white;
+        font-size: $base-fontsize;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }
 }
 h1 {
 
@@ -63,11 +100,13 @@ h3 {
     font-size: $secciones-fontsize;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-shadow: 1px 0 0 black;
     color: white;
     @include mobile {
         font-size: $secciones-mobile-fontsize;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
+        text-shadow: 1px 0 0 black;
         color:white;
     }
 }
@@ -75,4 +114,7 @@ h4 {
     font-size: $titulos-cartas-fontsize;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+}
+.p-elecciones {
+    color: white;
 }

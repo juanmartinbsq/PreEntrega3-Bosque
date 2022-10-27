@@ -53,31 +53,33 @@
 }
 
 @mixin boton-celeste {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: #AF008B;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 2px #AF008B;
+    &:hover {
+        font-family: 'Montserrat', sans-serif;
         background-color: $azul-negro;
-        border-style: none;
         color: white;
-        border-radius: 1rem;
-        padding: 0.5rem 1rem;
-        border: solid $azul-indigo;
-        &:hover {
-            background-color: $celeste;
-            color: black;
-            border-style: none;
-            border: solid $violeta-claro;
-        }
+        border-style: none;
+        border: 2px $azul-negro;
+    }
 }
 @mixin boton-violeta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
         background-color: $azul-negro;
-        border-style: none;
         color: white;
-        border-radius: 1rem;
         padding: 0.5rem 1rem;
-        border: solid $azul-indigo;
+        border: 2px $azul-indigo;
         &:hover {
-            background-color:$violeta;
+            font-family: 'Montserrat', sans-serif;
+            background-color:#AF008B;
             color: white;
             border-style: none;
-            border: solid $azul-claro;
+            border: 2px #AF008B;
         }
 }
 @mixin zoom {

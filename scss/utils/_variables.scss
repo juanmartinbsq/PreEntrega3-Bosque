@@ -1,9 +1,10 @@
     // colores de background gradientes
+    $bg-gradiente-cartas-uno: linear-gradient(90deg, rgba(28,76,150,1) 17%, rgba(96,126,201,1) 84%, rgba(0,255,255,1) 100%);
     $bg-celeste-azul: (linear-gradient( to left, #1c4c96, #607ec9, #00ffff));
-    $bg-violeta-azul: (linear-gradient( to left, #1c4c96, #607ec9, #cb0ed3));
+    $bg-violeta-azul: linear-gradient(90deg, rgba(203,14,211,1) 17%, rgba(96,126,201,1) 88%, rgba(28,76,150,1) 100%);
     $bg-azul-oscuro: (linear-gradient( to left, #000035, #062863, #1c4c96));
-    $bg-violeta-celeste-trans: (linear-gradient( to left, #00ffff7d, #607ec961, #cb0ed3 ));
-    $bg-celeste-violeta-trans: (linear-gradient( to right, #00ffff7d, #607ec961, #cb0ed3 ));
+    $bg-violeta-celeste-trans: (linear-gradient(90deg, #3b003e, #90017a, #90017a));
+    $bg-celeste-violeta-trans: (linear-gradient(90deg, #020024, #020298, #0010b1));
     // resto de colores
     $violeta: (#cb0ed3); 
     $violeta-claro: (#ea33f2);
@@ -18,6 +19,7 @@
     $border-card: (solid black);
 
     ////////// fonts //////////
+    $mobile-fontsize: (.75rem);
     $base-fontsize: (1rem);
     $principal-font: (font-family 'Montserrat', sans-serif);
     $portada-fontsize: (4rem);

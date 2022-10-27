@@ -2,23 +2,41 @@
     width: 250px;
     height: 250px;
     box-shadow: 5rem;
+    background: linear-gradient(0deg, rgba(2,16,177,1) 0%, #00ffff 100%);
     @include border-card-estructura;
     @include titulos;
 } 
 .carta-proximas-elecciones-alt {
     width: 250px;
     height: 250px;
+    background: linear-gradient(0deg, #430077 0%, #f50dff 100%);    
     @include border-card-estructura;
     @include titulos-alt;
 } 
 
 .carta-elecciones {
+    background-color: $azul-negro;
+    color: white;
+    box-shadow: 
+        0 0 0 -2px white,
+        0 0;
+    transition: box-shadow 0.5s;
+    bottom: 0;
+    left: 0;
     @include mobile {
-        width: 98%;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        text-overflow: clip ellipsis;
     }
     @include pc {
         width: 40%;
-        box-sizing: border-box;
+    }
+    &:hover {
+        box-shadow:
+        -10px 10px 0 -2px #020024,
+        -10px 10px;
+
     }
 }
 .card-form {
